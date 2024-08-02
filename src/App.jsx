@@ -1,9 +1,9 @@
-import { Button } from "./components/UI/CustomButton";
+import { Header } from "./components/Header";
 
 function App() {
 	return (
 		<>
-			<Button variant={"icon"}>Create</Button>
+			<Header />
 		</>
 	);
 }
