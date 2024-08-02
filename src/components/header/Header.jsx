@@ -1,7 +1,6 @@
 import styled from "styled-components";
+import { BASE_STYLES } from "../../helpers/constantsJs";
 import { Basket } from "./Basket";
-import { BASE_STYLES } from "../helpers/constantsJs";
-
 
 export const Header = () => {
 	return (

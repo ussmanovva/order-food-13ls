@@ -1,7 +1,6 @@
 import styled from "styled-components";
-import { BasketIcon } from "../assets/icon-collection";
-import { BASE_STYLES } from "../helpers/constantsJs";
-
+import { BASE_STYLES } from "../../helpers/constantsJs";
+import { BasketIcon } from "../../assets/icon-collection";
 
 export const Basket = ({ orders = 20 }) => {
 	return (
