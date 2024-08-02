@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { getVariantButton } from "../../helpers/styling";
+import { getVariantButton } from "../../helpers/styles";
 
 export const Button = ({
   children,
