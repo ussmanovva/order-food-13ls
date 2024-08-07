@@ -1,5 +1,5 @@
 import { css } from "styled-components";
-import { BASE_STYLES } from "./constants";
+import { BASE_STYLES } from "./constantsJs";
 
 export function getVariantButton(props) {
 	if (props.variant === "icon") {
