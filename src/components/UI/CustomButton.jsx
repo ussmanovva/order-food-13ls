@@ -2,41 +2,40 @@ import styled from "styled-components";
 import { getVariantButton } from "../../helpers/styles";
 
 export const Button = ({
-  children,
-  icon,
-  variant,
-  disabled,
-  onClick,
-  ...rest
+	children,
+	icon,
+	variant,
+	disabled,
+	onClick,
+	...rest
 }) => {
-  const withIcon = icon ? (
-    <>
-      <StyledIcon>{icon}</StyledIcon>
-      {children}
-    </>
-  ) : (
-    children
-  );
+	const withIcon = icon ? (
+		<>
+			<StyledIcon>{icon}</StyledIcon>
+			{children}
+		</>
+	) : (
+		children
+	);
 
-  return (
-    <StyledButton
-      onClick={onClick}
-      disabled={disabled}
-      variant={variant}
-      {...rest}
-    >
-      {withIcon}
-    </StyledButton>
-  );
+	return (
+		<StyledButton
+			onClick={onClick}
+			disabled={disabled}
+			variant={variant}
+			{...rest}>
+			{withIcon}
+		</StyledButton>
+	);
 };
 
 const StyledButton = styled.button`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  ${getVariantButton}
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	${getVariantButton}
 `;
 
 const StyledIcon = styled.span`
-  margin-right: 10px;
+	margin-right: 10px;
 `;
