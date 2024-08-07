@@ -5,13 +5,11 @@ import { imageBack } from "../../../assets/imageBackground";
 const Summary = () => {
 	return (
 		<StyledSummary>
-			<div>
-				<img
-					src={imageBack}
-					alt="image"
-					style={{ width: "100%", height: "350px" }}
-				/>
-			</div>
+			<img
+				src={imageBack}
+				alt="image"
+				style={{ width: "100%", height: "350px" }}
+			/>
 			<Content>
 				<Title>Delicious Food, Delivered To You</Title>
 				<Text>
@@ -49,11 +47,11 @@ const Content = styled.div`
 	flex-direction: column;
 	align-items: center;
 	background-color: ${BASE_STYLES.GREY};
-	box-shadow: 0px 0px 10px 6px #343434;
+	box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.3);
 	border-radius: 30px;
 	color: ${BASE_STYLES.WHITE};
-	top: 40%;
-	left: 17%;
+	top: 60%;
+	left: 18%;
 `;
 
 const Title = styled.h2`

@@ -1,6 +1,7 @@
 import styled from "styled-components";
-import MealItem from "./MealItem";
 import { BASE_STYLES } from "../../../helpers/constantsJs";
+import MealItem from "./MealItem";
+import MealForm from "./MealForm";
 
 const Meals = () => {
 	return (
@@ -21,6 +22,5 @@ const StyledMeal = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	border: 1px solid black;
 	background-color: ${BASE_STYLES.GREY};
 `;
