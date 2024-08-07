@@ -16,8 +16,8 @@ const Wrapper = styled.div`
 	background-color: ${BASE_STYLES.BLACK_BROWN};
 	display: flex;
 	justify-content: center;
-	align-items: center;
 	padding: 19px 33px;
+	align-items: center;
 	border-radius: 30px;
 	gap: 15px;
 	text-align: center;

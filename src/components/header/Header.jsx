@@ -16,6 +16,8 @@ export const Header = () => {
 const StyledHeader = styled.header`
 	width: 100%;
 	background-color: ${BASE_STYLES.BROWN};
+	position: fixed;
+	z-index: 2;
 `;
 
 const Container = styled.div`

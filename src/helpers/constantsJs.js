@@ -6,4 +6,5 @@ export const BASE_STYLES = {
 	DARK_BROWN: "#7e2a0a",
 	LIGTH_BROWN: "#993108",
 	BLACK_BROWN: "#5a1f08",
+	GREY: "#383838",
 };
