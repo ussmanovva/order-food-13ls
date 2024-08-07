@@ -13,10 +13,10 @@ export const Basket = ({ orders = 20 }) => {
 };
 
 const Wrapper = styled.div`
+	padding: 19px 33px;
 	background-color: ${BASE_STYLES.BLACK_BROWN};
 	display: flex;
 	justify-content: center;
-	padding: 19px 33px;
 	align-items: center;
 	border-radius: 30px;
 	gap: 15px;
